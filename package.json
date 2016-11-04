@@ -1,0 +1,24 @@
+{
+  "name": "koa-cra",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-validator": "^0.6.4",
+    "morgan": "^1.7.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon /server/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
