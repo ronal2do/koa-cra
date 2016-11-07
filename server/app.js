@@ -21,9 +21,6 @@ app.use(cors());
 require('./db');
 // add routes
 require('./routes')(app);
-// contact
-var contactController = require('./contact/services/create');
-app.post('/api/contact', contactController.contactPost);
 
 // Serve static assets
 app.use(koa.static(path.resolve(__dirname, '..', 'build')));
